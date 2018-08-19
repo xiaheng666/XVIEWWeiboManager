@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWWeiboManager_Example' do
+  pod 'XVIEWWeiboManager', :path => '../'
+
+  target 'XVIEWWeiboManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
