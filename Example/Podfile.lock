@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWWeiboManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWWeiboManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWWeiboManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWWeiboManager: 2bd797f9b28f1ae9cc1ecf4f18a68a375efc1c2f
+
+PODFILE CHECKSUM: cb82790b9c776d11af27b6cea7675dabc76da264
+
+COCOAPODS: 1.5.3

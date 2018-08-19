@@ -1,0 +1,6 @@
+framework module Pods_XVIEWWeiboManager_Example {
+  umbrella header "Pods-XVIEWWeiboManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

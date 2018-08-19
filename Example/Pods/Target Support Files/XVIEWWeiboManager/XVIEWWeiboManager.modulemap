@@ -1,0 +1,6 @@
+framework module XVIEWWeiboManager {
+  umbrella header "XVIEWWeiboManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
