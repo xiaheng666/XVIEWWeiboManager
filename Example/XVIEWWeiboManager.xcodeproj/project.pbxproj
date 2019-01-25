@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8934B96D5FE056630AA1C16D /* [CP] Embed Pods Frameworks */,
+				EECAB696A928F8171E824CFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,22 +315,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8934B96D5FE056630AA1C16D /* [CP] Embed Pods Frameworks */ = {
+		EECAB696A928F8171E824CFB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XVIEWWeiboManager/XVIEWWeiboManager.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example-resources.sh",
+				"${PODS_ROOT}/Weibo_SDK/libWeiboSDK/WeiboSDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWWeiboManager.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE31A97A7F25E51F35FC54C3 /* [CP] Check Pods Manifest.lock */ = {

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWWeiboManager'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = '微博分享和登陆'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'XVIEWWeiboManager/Classes/XVIEWWeiboManager/*.{h,m}'
+  s.source_files = 'XVIEWWeiboManager/Classes/*.h'
+  
+  s.ios.vendored_libraries = 'XVIEWWeiboManager/Classes/*.a'
   
   # s.resource_bundles = {
   #   'XVIEWWeiboManager' => ['XVIEWWeiboManager/Assets/*.png']
@@ -38,5 +40,5 @@ s.source_files = 'XVIEWWeiboManager/Classes/XVIEWWeiboManager/*.{h,m}'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Weibo_SDK'
+   s.dependency 'Weibo_SDK','~>3.2.3'
 end

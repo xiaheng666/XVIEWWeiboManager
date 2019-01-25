@@ -8,15 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2C31B3527FFD15897C3178E4EE4DAB14 /* Pods-XVIEWWeiboManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA21CCC4BC6FDD14988ECDC721D7AFDB /* Pods-XVIEWWeiboManager_Tests-dummy.m */; };
-		3BE2616534CA281435489E618DD55A66 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A7091EBF6F6743F8B44AF34CF536EA5B /* ReplaceMe.m */; };
-		3C36CB50D66B99EBF89897CF7252144A /* Pods-XVIEWWeiboManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E447CF3D8E8B1C980838E0A283EE3 /* Pods-XVIEWWeiboManager_Example-dummy.m */; };
+		3F9CCC2E33072A611382223040F48320 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4554312E62405B39182866752DF97124 /* Pods-XVIEWWeiboManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B789BF514CE45A1731D00735FF8D2EA /* Pods-XVIEWWeiboManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EABB5043E461A464AA329AA3CA05092 /* Pods-XVIEWWeiboManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A858E228F57D1B375AEC99DFD396F6 /* Pods-XVIEWWeiboManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C863FCBB46F2D0749333BDE68DFD004 /* XVIEWWeiboManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605FD185C7A90C3109903E99D11E045A /* XVIEWWeiboManager-dummy.m */; };
 		762B300C6DBEE715969EB30D0C65A7DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7AFDB449FAB9BDC7A6A868969A5B4D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A4FE5E8AAB735DF46D9474EB562CE5A3 /* XVIEWWeiboManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5199ADE0FF472EA177FE15B9C07F146E /* XVIEWWeiboManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA59973D4C03068FC3DF181C26300FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FBBDBB039C7DA5376C7989F39F5A2AAF /* Pods-XVIEWWeiboManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B789BF514CE45A1731D00735FF8D2EA /* Pods-XVIEWWeiboManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB891E0F97EA31D11F2F1692B04BDB7A /* Pods-XVIEWWeiboManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E447CF3D8E8B1C980838E0A283EE3 /* Pods-XVIEWWeiboManager_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,49 +20,40 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 37CD91C15B222E4DDEF8593387190245;
+			remoteGlobalIDString = A4952C920B2A675A9BCD1710B6A26D27;
 			remoteInfo = "Pods-XVIEWWeiboManager_Example";
-		};
-		C30F9C6F9D1C6653B7B76FFDE6384230 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D89EDC8882419F9C4C380D135A8B514;
-			remoteInfo = XVIEWWeiboManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03529F841896F61C3F292E80BCC425C5 /* Pods-XVIEWWeiboManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWWeiboManager_Tests.modulemap"; sourceTree = "<group>"; };
 		03EA2AF73BA09BAFA471DACBFFEDFA7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		085B9C2B0D3B522C6AC38C1810DBA580 /* XVIEWWeiboManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWWeiboManager-prefix.pch"; sourceTree = "<group>"; };
-		0AA69E3F7D5C79816E110018F42EDD5B /* Pods_XVIEWWeiboManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWWeiboManager_Example.framework; path = "Pods-XVIEWWeiboManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B789BF514CE45A1731D00735FF8D2EA /* Pods-XVIEWWeiboManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWWeiboManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		0F2E2CB4D9F94D20963D86B5EB4359F2 /* XVIEWWeiboManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWWeiboManager.framework; path = XVIEWWeiboManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		160B787750B7985D3502C3CF2B08994F /* Pods-XVIEWWeiboManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWWeiboManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B63B163D4406E9256B766C4094B103E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1F2E447CF3D8E8B1C980838E0A283EE3 /* Pods-XVIEWWeiboManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWWeiboManager_Example-dummy.m"; sourceTree = "<group>"; };
-		3C864E40D6C538773ED7319E563BDE8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4910C6A96EAD897A0047227CDDD204B8 /* XVIEWWeiboManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWWeiboManager.xcconfig; sourceTree = "<group>"; };
+		24D8E13E9B396DFCC682E5AF89A7C488 /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = libWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
+		2C37D7860208D23AF94B0417E803904F /* XVIEWWeiboManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWWeiboManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32A5F2FAF8D7D88835858361B16D5737 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = libWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
 		4B5908F9EA32C9DEA9B67625F28E4A03 /* Pods-XVIEWWeiboManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWWeiboManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5199ADE0FF472EA177FE15B9C07F146E /* XVIEWWeiboManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWWeiboManager-umbrella.h"; sourceTree = "<group>"; };
-		54892AE233ACE9A5885E3CC66894E40F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFAEFAD7B08B1C0150C92B9347AAF10 /* Pods_XVIEWWeiboManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWWeiboManager_Example.framework; path = "Pods-XVIEWWeiboManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		572BF1E687C075905DBE6B01CF3ADE0A /* XVIEWWeiboManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWWeiboManager.h; path = XVIEWWeiboManager/Classes/XVIEWWeiboManager.h; sourceTree = "<group>"; };
 		589CC2502E19C41ACAA885A6E9D63C8C /* Pods-XVIEWWeiboManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWWeiboManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		605FD185C7A90C3109903E99D11E045A /* XVIEWWeiboManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWWeiboManager-dummy.m"; sourceTree = "<group>"; };
 		6A3823E7AB714A0D3ECD815DB299D2FE /* Pods-XVIEWWeiboManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWWeiboManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7516FBF4FC0D8055E393140616BD4D2D /* Pods-XVIEWWeiboManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWWeiboManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		848F8B6AFD14104D4EDC0385D8F65068 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		88586DE227B7875F0625F7EB4C8AEF6D /* Pods-XVIEWWeiboManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWWeiboManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		90C343641E36EC10DC8AA33D2C0680DF /* XVIEWWeiboManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWWeiboManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		916FAA312DB81AC997A27D84118E7239 /* Pods_XVIEWWeiboManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWWeiboManager_Tests.framework; path = "Pods-XVIEWWeiboManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		950B31ABD0276D988E3B637A736E2D4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962C5B2E032508A99AD7C1614B71A24F /* Pods-XVIEWWeiboManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWWeiboManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		96A2D4404AD343F3DE4B9D08128D881A /* Pods_XVIEWWeiboManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWWeiboManager_Tests.framework; path = "Pods-XVIEWWeiboManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A858E228F57D1B375AEC99DFD396F6 /* Pods-XVIEWWeiboManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWWeiboManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A7091EBF6F6743F8B44AF34CF536EA5B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWWeiboManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A126B681E350B72EB271F401BBAC4D05 /* libWeiboManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboManager.a; path = XVIEWWeiboManager/Classes/libWeiboManager.a; sourceTree = "<group>"; };
+		A8604C9FE880823DAF37102BDD74F350 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = libWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		BA4D85B541D6D2563E85BF5D4EEE1455 /* Pods-XVIEWWeiboManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWWeiboManager_Example-resources.sh"; sourceTree = "<group>"; };
 		C17CD4E94AAFBAD559EC2F1B62201FB4 /* Pods-XVIEWWeiboManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWWeiboManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CEDD630183D81F883183B32C419958E2 /* XVIEWWeiboManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWWeiboManager.modulemap; sourceTree = "<group>"; };
+		CD396A2A06CC29E5E506142862D85416 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF24863DB8C5B02D0A09C9E2162DE54D /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = libWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
 		D64419EF74E881DB83E83692AA43CAE9 /* Pods-XVIEWWeiboManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWWeiboManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA21CCC4BC6FDD14988ECDC721D7AFDB /* Pods-XVIEWWeiboManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWWeiboManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		DC22A5A71E28A0C84F0711FEC9D09D8C /* Pods-XVIEWWeiboManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWWeiboManager_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,27 +62,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E1D9527287668238BAAA793EF8D17B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9CCC2E33072A611382223040F48320 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F15E13A414CF4325F7CACC94F2DED10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				762B300C6DBEE715969EB30D0C65A7DB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D433ED6B408A945E4FDEEAB48D8A9BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AFDB449FAB9BDC7A6A868969A5B4D34 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C81471D95BC9A36302B0ABF1176F831F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA59973D4C03068FC3DF181C26300FE3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,18 +90,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		11D37A9AFF7C73674336D5C4EDE78137 /* Support Files */ = {
+		06DF4814E778C4DCD9D552EEE82E4832 /* Weibo_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				54892AE233ACE9A5885E3CC66894E40F /* Info.plist */,
-				CEDD630183D81F883183B32C419958E2 /* XVIEWWeiboManager.modulemap */,
-				4910C6A96EAD897A0047227CDDD204B8 /* XVIEWWeiboManager.xcconfig */,
-				605FD185C7A90C3109903E99D11E045A /* XVIEWWeiboManager-dummy.m */,
-				085B9C2B0D3B522C6AC38C1810DBA580 /* XVIEWWeiboManager-prefix.pch */,
-				5199ADE0FF472EA177FE15B9C07F146E /* XVIEWWeiboManager-umbrella.h */,
+				CF24863DB8C5B02D0A09C9E2162DE54D /* WBHttpRequest.h */,
+				32A5F2FAF8D7D88835858361B16D5737 /* WeiboSDK.h */,
+				39F701E265CC430E887BD7CAE9395AE1 /* Frameworks */,
+				369585B1A808CE8ABDE60DF3BA9848BB /* Resources */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XVIEWWeiboManager";
+			name = Weibo_SDK;
+			path = Weibo_SDK;
+			sourceTree = "<group>";
+		};
+		0B3B809F06F6FECD52E8AC53C50F4DF1 /* XVIEWWeiboManager */ = {
+			isa = PBXGroup;
+			children = (
+				572BF1E687C075905DBE6B01CF3ADE0A /* XVIEWWeiboManager.h */,
+				D1843138A56182CEC9CD52E7EAFDDEEF /* Frameworks */,
+				E3472F9EE8AB7F537964DE5DF43BF10F /* Pod */,
+			);
+			name = XVIEWWeiboManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		26AD3C055DBB32108ED1BAB6D6703EDD /* Pods-XVIEWWeiboManager_Example */ = {
@@ -143,14 +131,20 @@
 			path = "Target Support Files/Pods-XVIEWWeiboManager_Example";
 			sourceTree = "<group>";
 		};
-		360C0A0D492D5220E2BFD1AA4CAE6B1B /* Products */ = {
+		369585B1A808CE8ABDE60DF3BA9848BB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AA69E3F7D5C79816E110018F42EDD5B /* Pods_XVIEWWeiboManager_Example.framework */,
-				96A2D4404AD343F3DE4B9D08128D881A /* Pods_XVIEWWeiboManager_Tests.framework */,
-				0F2E2CB4D9F94D20963D86B5EB4359F2 /* XVIEWWeiboManager.framework */,
+				A8604C9FE880823DAF37102BDD74F350 /* WeiboSDK.bundle */,
 			);
-			name = Products;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39F701E265CC430E887BD7CAE9395AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D8E13E9B396DFCC682E5AF89A7C488 /* libWeiboSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -185,27 +179,26 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				97A1843F322C337FF44636DB10CD9319 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				360C0A0D492D5220E2BFD1AA4CAE6B1B /* Products */,
+				9F155889A0F14FC9700C6FC06CE3DC62 /* Pods */,
+				CBDF329456421576A06946738C2BFBFE /* Products */,
 				052FE448020AF64F96AFCA0AFA2FA6D2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8C1318FCA01F37510875173B4F47E851 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				848F8B6AFD14104D4EDC0385D8F65068 /* LICENSE */,
-				3C864E40D6C538773ED7319E563BDE8F /* README.md */,
-				90C343641E36EC10DC8AA33D2C0680DF /* XVIEWWeiboManager.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		97A1843F322C337FF44636DB10CD9319 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0B5B319DA000698220E029C04A4856E /* XVIEWWeiboManager */,
+				0B3B809F06F6FECD52E8AC53C50F4DF1 /* XVIEWWeiboManager */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9F155889A0F14FC9700C6FC06CE3DC62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06DF4814E778C4DCD9D552EEE82E4832 /* Weibo_SDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -216,33 +209,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0B5B319DA000698220E029C04A4856E /* XVIEWWeiboManager */ = {
+		CBDF329456421576A06946738C2BFBFE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7091EBF6F6743F8B44AF34CF536EA5B /* ReplaceMe.m */,
-				8C1318FCA01F37510875173B4F47E851 /* Pod */,
-				11D37A9AFF7C73674336D5C4EDE78137 /* Support Files */,
+				4FFAEFAD7B08B1C0150C92B9347AAF10 /* Pods_XVIEWWeiboManager_Example.framework */,
+				916FAA312DB81AC997A27D84118E7239 /* Pods_XVIEWWeiboManager_Tests.framework */,
 			);
-			name = XVIEWWeiboManager;
-			path = ../..;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1843138A56182CEC9CD52E7EAFDDEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A126B681E350B72EB271F401BBAC4D05 /* libWeiboManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3472F9EE8AB7F537964DE5DF43BF10F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B63B163D4406E9256B766C4094B103E /* LICENSE */,
+				CD396A2A06CC29E5E506142862D85416 /* README.md */,
+				2C37D7860208D23AF94B0417E803904F /* XVIEWWeiboManager.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		19C4DB8D8D414F91316CE4A3BEB9D6C8 /* Headers */ = {
+		8205A083D4152CB849F3504476406CF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4FE5E8AAB735DF46D9474EB562CE5A3 /* XVIEWWeiboManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42C5CF010697F777B44EC0ECEAA5C28B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBBDBB039C7DA5376C7989F39F5A2AAF /* Pods-XVIEWWeiboManager_Example-umbrella.h in Headers */,
+				4554312E62405B39182866752DF97124 /* Pods-XVIEWWeiboManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,41 +258,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		37CD91C15B222E4DDEF8593387190245 /* Pods-XVIEWWeiboManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F55257299A5D37DEB57482EDC46FC1C1 /* Build configuration list for PBXNativeTarget "Pods-XVIEWWeiboManager_Example" */;
-			buildPhases = (
-				AC03CFE22A35768D2A50D5F5C06BE550 /* Sources */,
-				C81471D95BC9A36302B0ABF1176F831F /* Frameworks */,
-				42C5CF010697F777B44EC0ECEAA5C28B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A0EC7AB8EAEF1DACBD45FDBFEC125492 /* PBXTargetDependency */,
-			);
-			name = "Pods-XVIEWWeiboManager_Example";
-			productName = "Pods-XVIEWWeiboManager_Example";
-			productReference = 0AA69E3F7D5C79816E110018F42EDD5B /* Pods_XVIEWWeiboManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6D89EDC8882419F9C4C380D135A8B514 /* XVIEWWeiboManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB7DAB771F41668F6BAE349A6F63EC6D /* Build configuration list for PBXNativeTarget "XVIEWWeiboManager" */;
-			buildPhases = (
-				32EDAA541CEF5D92B5060FBD27DECACF /* Sources */,
-				8D433ED6B408A945E4FDEEAB48D8A9BF /* Frameworks */,
-				19C4DB8D8D414F91316CE4A3BEB9D6C8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XVIEWWeiboManager;
-			productName = XVIEWWeiboManager;
-			productReference = 0F2E2CB4D9F94D20963D86B5EB4359F2 /* XVIEWWeiboManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		7A57D599E887FE9EF716DD82E65DE80C /* Pods-XVIEWWeiboManager_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 868A845B09F085316B0CAA1C6A1B2A40 /* Build configuration list for PBXNativeTarget "Pods-XVIEWWeiboManager_Tests" */;
@@ -307,7 +273,24 @@
 			);
 			name = "Pods-XVIEWWeiboManager_Tests";
 			productName = "Pods-XVIEWWeiboManager_Tests";
-			productReference = 96A2D4404AD343F3DE4B9D08128D881A /* Pods_XVIEWWeiboManager_Tests.framework */;
+			productReference = 916FAA312DB81AC997A27D84118E7239 /* Pods_XVIEWWeiboManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4952C920B2A675A9BCD1710B6A26D27 /* Pods-XVIEWWeiboManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85D7D80559696276C0D9EC438BDCA49 /* Build configuration list for PBXNativeTarget "Pods-XVIEWWeiboManager_Example" */;
+			buildPhases = (
+				CA72AFA50B311F51A0A4722F94F8B57E /* Sources */,
+				3E1D9527287668238BAAA793EF8D17B4 /* Frameworks */,
+				8205A083D4152CB849F3504476406CF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XVIEWWeiboManager_Example";
+			productName = "Pods-XVIEWWeiboManager_Example";
+			productReference = 4FFAEFAD7B08B1C0150C92B9347AAF10 /* Pods_XVIEWWeiboManager_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +310,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 360C0A0D492D5220E2BFD1AA4CAE6B1B /* Products */;
+			productRefGroup = CBDF329456421576A06946738C2BFBFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37CD91C15B222E4DDEF8593387190245 /* Pods-XVIEWWeiboManager_Example */,
+				A4952C920B2A675A9BCD1710B6A26D27 /* Pods-XVIEWWeiboManager_Example */,
 				7A57D599E887FE9EF716DD82E65DE80C /* Pods-XVIEWWeiboManager_Tests */,
-				6D89EDC8882419F9C4C380D135A8B514 /* XVIEWWeiboManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32EDAA541CEF5D92B5060FBD27DECACF /* Sources */ = {
+		CA72AFA50B311F51A0A4722F94F8B57E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE2616534CA281435489E618DD55A66 /* ReplaceMe.m in Sources */,
-				5C863FCBB46F2D0749333BDE68DFD004 /* XVIEWWeiboManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC03CFE22A35768D2A50D5F5C06BE550 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C36CB50D66B99EBF89897CF7252144A /* Pods-XVIEWWeiboManager_Example-dummy.m in Sources */,
+				EB891E0F97EA31D11F2F1692B04BDB7A /* Pods-XVIEWWeiboManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,52 +343,15 @@
 		1DCD73AFBC09921BA78306CD547B1BC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XVIEWWeiboManager_Example";
-			target = 37CD91C15B222E4DDEF8593387190245 /* Pods-XVIEWWeiboManager_Example */;
+			target = A4952C920B2A675A9BCD1710B6A26D27 /* Pods-XVIEWWeiboManager_Example */;
 			targetProxy = 508D3370EFC5B791C6D2F16FF56DD77C /* PBXContainerItemProxy */;
-		};
-		A0EC7AB8EAEF1DACBD45FDBFEC125492 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XVIEWWeiboManager;
-			target = 6D89EDC8882419F9C4C380D135A8B514 /* XVIEWWeiboManager */;
-			targetProxy = C30F9C6F9D1C6653B7B76FFDE6384230 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20781B08522FEED1B95050B9E20D0F18 /* Release */ = {
+		5230DFF9E075670CE4B82F6C85259818 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4910C6A96EAD897A0047227CDDD204B8 /* XVIEWWeiboManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XVIEWWeiboManager/XVIEWWeiboManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XVIEWWeiboManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XVIEWWeiboManager/XVIEWWeiboManager.modulemap";
-				PRODUCT_MODULE_NAME = XVIEWWeiboManager;
-				PRODUCT_NAME = XVIEWWeiboManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DC0717C4875DC891A6C253AD08CBBEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43793377050322BCCED197B90D261AF /* Pods-XVIEWWeiboManager_Example.debug.xcconfig */;
+			baseConfigurationReference = DC22A5A71E28A0C84F0711FEC9D09D8C /* Pods-XVIEWWeiboManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -441,10 +377,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5C5579AA06286D0B19DF0EE44DCEB529 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -543,36 +480,6 @@
 			};
 			name = Debug;
 		};
-		A08B6F1C0CF820DFB8F2B6059BD7FFBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4910C6A96EAD897A0047227CDDD204B8 /* XVIEWWeiboManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XVIEWWeiboManager/XVIEWWeiboManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XVIEWWeiboManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XVIEWWeiboManager/XVIEWWeiboManager.modulemap";
-				PRODUCT_MODULE_NAME = XVIEWWeiboManager;
-				PRODUCT_NAME = XVIEWWeiboManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A55327B22062A99CDE8DA5A8E4F0FF38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D64419EF74E881DB83E83692AA43CAE9 /* Pods-XVIEWWeiboManager_Tests.debug.xcconfig */;
@@ -593,6 +500,39 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWWeiboManager_Tests/Pods-XVIEWWeiboManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9968F94A3D613EE7AC41F6C5E167F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E43793377050322BCCED197B90D261AF /* Pods-XVIEWWeiboManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWWeiboManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -664,40 +604,6 @@
 			};
 			name = Release;
 		};
-		F43E6858ED681BFAA94C4C7CEBB16ECC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC22A5A71E28A0C84F0711FEC9D09D8C /* Pods-XVIEWWeiboManager_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XVIEWWeiboManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XVIEWWeiboManager_Example/Pods-XVIEWWeiboManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -719,20 +625,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB7DAB771F41668F6BAE349A6F63EC6D /* Build configuration list for PBXNativeTarget "XVIEWWeiboManager" */ = {
+		D85D7D80559696276C0D9EC438BDCA49 /* Build configuration list for PBXNativeTarget "Pods-XVIEWWeiboManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A08B6F1C0CF820DFB8F2B6059BD7FFBA /* Debug */,
-				20781B08522FEED1B95050B9E20D0F18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F55257299A5D37DEB57482EDC46FC1C1 /* Build configuration list for PBXNativeTarget "Pods-XVIEWWeiboManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DC0717C4875DC891A6C253AD08CBBEA /* Debug */,
-				F43E6858ED681BFAA94C4C7CEBB16ECC /* Release */,
+				A9968F94A3D613EE7AC41F6C5E167F6C /* Debug */,
+				5230DFF9E075670CE4B82F6C85259818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

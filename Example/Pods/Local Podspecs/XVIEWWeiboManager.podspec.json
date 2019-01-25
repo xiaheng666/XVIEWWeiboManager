@@ -1,6 +1,6 @@
 {
   "name": "XVIEWWeiboManager",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "微博分享和登陆",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWWeiboManager",
@@ -13,12 +13,15 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWWeiboManager.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWWeiboManager/Classes/XVIEWWeiboManager/*.{h,m}",
+  "source_files": "XVIEWWeiboManager/Classes/*.h",
+  "ios": {
+    "vendored_libraries": "XVIEWWeiboManager/Classes/*.a"
+  },
   "dependencies": {
     "Weibo_SDK": [
 

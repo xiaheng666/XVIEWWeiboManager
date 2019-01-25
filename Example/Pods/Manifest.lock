@@ -1,15 +1,22 @@
 PODS:
-  - XVIEWWeiboManager (0.1.0)
+  - Weibo_SDK (3.2.3)
+  - XVIEWWeiboManager (0.1.5):
+    - Weibo_SDK
 
 DEPENDENCIES:
   - XVIEWWeiboManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Weibo_SDK
 
 EXTERNAL SOURCES:
   XVIEWWeiboManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWWeiboManager: 2bd797f9b28f1ae9cc1ecf4f18a68a375efc1c2f
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+  XVIEWWeiboManager: 6923091aa935ed26d3d9a22d0b2fb4effffe8d74
 
 PODFILE CHECKSUM: cb82790b9c776d11af27b6cea7675dabc76da264
 

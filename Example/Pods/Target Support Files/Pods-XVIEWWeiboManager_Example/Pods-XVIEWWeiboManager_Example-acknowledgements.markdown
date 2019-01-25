@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## Weibo_SDK
+
+
+
 ## XVIEWWeiboManager
 
 Copyright (c) 2018 maomao520benben <key@xiaheng.net>
